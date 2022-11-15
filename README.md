@@ -6,7 +6,7 @@ It can take any c# file with properties which are in this format:
   
 And converts it to:
 ```
-        "public type_name public_name { 
+        public type_name public_name { 
                 get {
                     return private_name; }
                 set {
@@ -15,4 +15,4 @@ And converts it to:
             } 
         }
         
-        private type_name private_name; " ```
+        private type_name private_name;  ```
