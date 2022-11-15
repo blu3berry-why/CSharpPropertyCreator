@@ -63,6 +63,9 @@ def is_property(array):
     if len(array) < 4:
         return False
 
+    if array[2].__contains__("("):
+        return False
+
     if array[0] == 'public' and array[3] == '{':
         return True
 
